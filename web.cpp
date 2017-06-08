@@ -450,7 +450,7 @@ static bool ManualZone(const KVPairs & key_value_pairs)
 	freeMemory();
 
 	// Turn off the current schedules.
-	SetRunSchedules(false);
+	// SetRunSchedules(false);
 
 	bool bOn = false;
 	int iZoneNum = -1;
